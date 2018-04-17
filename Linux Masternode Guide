@@ -185,14 +185,14 @@ Please note that compiling the software requires `more than 1GB of RAM memory` f
 
 Open putty again, and connect to your VPS. When prompted log in as user `slash`
 
-Next step is to setup the configuration files for the RAPID daemon (client)
+Next step is to setup the configuration files for the SLASH daemon (client)
 Use the editor nano to edit the files. More experienced users may use other editors, but nano is an easy to use editor for new beginners and more experienced users alike.
 
-	mkdir ~/.rapidcore
-	cd ~/.rapidcore
-	nano -w rapid.conf
+	mkdir ~/.slashcore
+	cd ~/.slashcore
+	nano -w slash.conf
 
-write or copy the settings below to your `rapid.conf` file:
+write or copy the settings below to your `slash.conf` file:
 
 port=9880 
 masternode=1 
@@ -232,7 +232,7 @@ The masternode.conf file needs a few values;
 	Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
 
 * the `alias` is a name we assign to our masternode, like `MN1`
-* `IP:port` are the external ip and node for the hot node on the VPS. The port for RAPID mainnet is `4527`
+* `IP:port` are the external ip and node for the hot node on the VPS. The port for SLASH mainnet is `9880`
 * `masternodeprivkey` is the output from the `masternode genkey` command earlier, eg `7ryov3YdixSPUVxTBJ5oe2qi88AJHXqHbYtMdph2Mizv3XTUiPd`
 * for the `collateral_output_txid` and `collateral_output_index` we need to issue a command in the cold wallet console.
 
