@@ -162,6 +162,8 @@ We need to copy the binaries to a folder in our path for easier access
 	sudo mv slash-cli /usr/local/bin/
 	sudo mv slashd /usr/local/bin/
 	sudo mv slash-tx /usr/local/bin/
+        cd usr/local/bin
+        sudo chmod 755 slash-cli slashd slash-tx
 	
 Please note that we do not need to copy the `slash-qt` file, as it is the graphical wallet interface. It will not work on our server.
 
