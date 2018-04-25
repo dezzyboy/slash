@@ -206,7 +206,6 @@ listen=1
 rpcuser=YOUR_LONG_AND_RANDOM_USERNAME 
 rpcpassword=YOUR_VERY_LONG_AND_RANDOM_PASSWORD 
 rpcallowip=127.0.0.1 
-rpcport=PORT_OF_YOUR_VPS_SERVER 
 rpcconnect=127.0.0.1 
 rpcthreads=8 
 discover=1
